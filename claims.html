@@ -1,0 +1,164 @@
+<!--same on every page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="christine hwang"/>
+    <link rel="stylesheet" href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Claims</title>
+</head>
+<body>
+    <div class="header"><br>
+        <div class="logo col-sm-2 col-md-2 col-lg-2">
+            <a href="index.html">
+                <img src="logo.png" class="logo">
+            </a>
+        </div>
+        <div class="col-sm-10 col-md-10 col-lg-10">
+            <div class="col-sm-10 col-md-10 col-lg-6">
+            </div>
+            <div class="navbar col-sm-10 col-md-10 col-lg-6">
+                <a href="index.html" class="navlink">HOME</a>
+                <a href="science.html" class="navlink">SCIENCE</a>
+                <a href="" class="navlink curr">CLAIMS</a>
+                <a href="devices.html" class="navlink">DEVICES</a>
+            </div>
+        </div>
+    </div><br><br><br><br><br><br>
+<!--same on every page-->
+    
+    <div>
+        <div class="claims col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <br><h2>RESEARCH CLAIMS</h2><br>
+            <div class="currClaim claim col-xs-4 col-sm-4 col-md-4 col-lg-4" id="activeE" onclick="activateE()">
+                ENHANCEMENT
+            </div>
+            <div class="claim col-xs-4 col-sm-4 col-md-4 col-lg-4" id="activeP" onclick="activateP()">
+                PHYSIOLOGY
+            </div>
+            <div class="claim col-xs-4 col-sm-4 col-md-4 col-lg-4" id="activeW" onclick="activateW()">
+                WELLBEING
+            </div>
+            <br><br><br>
+  
+            <div id="enhance">
+                <div class="claimTitle col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    ATTENTION/FOCUS
+                </div>
+                    <div class="leftPar col-xs-3 col-sm-3 col-md-3 col-lg-9">
+                        Neurofeedback allows some devices to claim that they can boost/improve one’s attention. This boost in attention comes from using specific brainwaves (i.e., alpha, beta, theta, etc.) to perform a task on an associated app. Because this task specifies a certain power needed in a given brainwave to work, by focusing one’s attention on the task, one should be able to (over time) boost or improve their attention levels.<br><br>
+                    </div>
+                <div class="claimTitle col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    BRAIN PERFORMANCE
+                </div>
+                    <div class="leftPar col-xs-3 col-sm-3 col-md-3 col-lg-9">
+                        Through the analysis of one’s brainwaves, some devices claim that they can increase an individual’s brain performance through neurofeedback. This increase in brain performance comes from the devices letting the user know when their brainwaves (i.e., alpha, beta, theta, etc.) are not working in a systematic way. The theory behind this claim is that through neurofeedback an individual will be able to increase their brain performance by maintaining systematic brainwave activity.<br><br>
+                    </div>
+                <div class="claimTitle col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    MINDFULNESS
+                </div>
+                    <div class="leftPar col-xs-3 col-sm-3 col-md-3 col-lg-9">
+                        Devices that claim to be able to increase one’s mindfulness are tracking the brain activity (i.e., alpha, beta, theta, etc.) to see what the state of the individual brain is in. Then, through neurofeedback, the device informs the individual when their brain is in a relaxed/mindful state and encourages them to continue what they are doing. The thought behind this is that overtime individuals will be able to put themselves into a relaxed/mindful state based on the neurofeedback that they received.<br><br>
+                    </div>
+            </div>
+            <div id="physiology">
+                <div class="claimTitle col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    BCI
+                </div>
+                    <div class="leftPar col-xs-3 col-sm-3 col-md-3 col-lg-9">
+                        Brain-computer interface (BCI), in the context of consumer-based EEG devices, is when an individual can control something with their brain activity (i.e., alpha, beta, theta, etc.). For instance, some devices use the brain activity in an individual to have them control certain aspects of an app. This in turn, theoretically, would train the individual to be able to activate certain areas or pathways of their brain.<br><br>
+                    </div>
+                <div class="claimTitle col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    PHYSICAL PERFORMANCE
+                </div>
+                    <div class="leftPar col-xs-3 col-sm-3 col-md-3 col-lg-9">
+                        The claim behind devices being able to increase one’s physical performance comes from neurofeedback associated with cognitive training. Some of these devices have individuals go through a series of cognitive tests, while providing neurofeedback to the individual. Theoretically, through this training, individuals will be able to put themselves into a mental state for peak physical performance.<br><br>
+                    </div>
+                <div class="claimTitle col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    SLEEP
+                </div>
+                    <div class="leftPar col-xs-3 col-sm-3 col-md-3 col-lg-9">
+                        The claim that consumer-based devices can track and improve one’s sleep is based on the idea that the devices will be analyzing one’s brainwaves (i.e., alpha, beta, theta, etc.) while they sleep. These devices track the brain activity as one sleeps and based on their brain activity, wakes them up when their brain is in the right state.<br><br>
+                    </div>
+            </div>
+            <div id="wellbeing">
+                <div class="claimTitle col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    CALMNESS
+                </div>
+                    <div class="leftPar col-xs-3 col-sm-3 col-md-3 col-lg-9">
+                        Devices that claim to be able to increase one’s calmness are tracking their brain activity (i.e., alpha, beta, theta, etc.) to see what the state of the individual brain is in. Then, through neurofeedback, the device informs the individual when their brain is in a calm/relaxed state and encourages them to continue what they are doing. The thought behind this is that overtime individuals will be able to put themselves into a calm/relaxed state based on the neurofeedback that they received.<br><br>
+                    </div>
+                <div class="claimTitle col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    MEDITATION
+                </div>
+                    <div class="leftPar col-xs-3 col-sm-3 col-md-3 col-lg-9">
+                        Devices that claim to be able to enhance one’s ability to meditate are tracking their brain activity (i.e., alpha, beta, theta, etc.) to see what the state of the individual brain is in. Then, through neurofeedback, the device informs the individual when their brain is in a meditative state and encourages them to continue what they are doing. Through practice, and use of the device, the individual will be able to increase their abilities of mediation based on the neurofeedback that they received.<br><br>
+                    </div>
+                <div class="claimTitle col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    MENTAL HEALTH
+                </div>
+                    <div class="leftPar col-xs-3 col-sm-3 col-md-3 col-lg-9">
+                        Devices that claim to detect and track the mental health of individuals are doing so based on the individuals brain activity (i.e., alpha, beta, theta, etc.) and known biomarkers for detecting mental health abnormalities. The aim of these devices is to detect abnormal mental states of individuals (i.e., anxiety, schizophrenia, etc.) and inform the user. This type of claim could be very beneficial to individuals who suffer from mental illness.<br><br>
+                    </div>
+                <div class="claimTitle col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    STRESS
+                </div>
+                    <div class="leftPar col-xs-3 col-sm-3 col-md-3 col-lg-9">
+                        Devices that claim to be able to detect and lower one’s stress are tracking the brain activity (i.e., alpha, beta, theta, etc.) to see what the state of the individual brain is in. Then, through neurofeedback, the device informs the individual that their brain is in a stressful state and encourages them to alter their brain activity. The thought behind this is that overtime individuals will be able to take themselves out of a stressful state based on the neurofeedback that they had previously received.<br><br>
+                    </div>
+            </div>     
+        </div>      
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <img src="claimspic.jpg" class="sciencepic">
+        <br><br><br></div>
+    </div>
+    
+<!--same on every page-->
+    <div class="footer">
+        <div class="footersect col-lg-4">
+            <br><img src="sciandsoc.png" style="width:80%;"><br><br><br>
+        </div>
+        <div class="footersect col-lg-4">
+            <br><br>
+                About<br>
+                Lab<br>
+                Contact<br>
+            <br><br>
+        </div>
+        <div class="footersect col-lg-4">
+            <br><img src="bassconn.png" style="width:80%; margin-top: 4%;"><br><br><br>
+        </div>
+    </div>
+<!--same on every page-->
+
+    <script>
+        function activateE() {
+            document.getElementById("activeE").style.fontWeight = "600";
+            document.getElementById("activeP").style.fontWeight = "normal";
+            document.getElementById("activeW").style.fontWeight = "normal";
+            document.getElementById("enhance").style.display = "block";
+            document.getElementById("physiology").style.display = "none";
+            document.getElementById("wellbeing").style.display = "none";
+        }
+        function activateP() {
+            document.getElementById("activeP").style.fontWeight = "600";
+            document.getElementById("activeE").style.fontWeight = "normal";
+            document.getElementById("activeW").style.fontWeight = "normal";
+            document.getElementById("physiology").style.display = "block";
+            document.getElementById("enhance").style.display = "none";
+            document.getElementById("wellbeing").style.display = "none";
+        }
+        function activateW() {
+            document.getElementById("activeW").style.fontWeight = "600";
+            document.getElementById("activeE").style.fontWeight = "normal";
+            document.getElementById("activeP").style.fontWeight = "normal";
+            document.getElementById("wellbeing").style.display = "block";
+            document.getElementById("enhance").style.display = "none";
+            document.getElementById("physiology").style.display = "none";
+        }
+    </script>
+    
+</body>
+</html>

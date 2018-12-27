@@ -1,0 +1,159 @@
+body {
+    margin: auto;
+    text-align: center;
+    font-family: "Avenir Next Condensed";
+    font-size: 14px;
+    line-height: 18px;
+}
+h1 {
+    font-family: "Avenir Next Condensed";
+    font-size: 60px;
+    line-height: 12px;
+}
+h2 {
+    color: black;
+    font-size: 3em;
+}
+.logo {
+    width: 200px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.navbar {
+    margin-top: 2.5%;
+}
+.navlink {
+    color: black;
+    font-family: "Avenir Next Condensed";
+    text-decoration: none;
+    padding-left: 13%;
+    font-size: 1.3em;
+}
+.navlink:hover {
+    text-decoration: none;
+    color: #707070;
+}
+.main {
+    width: 123%;
+    margin-top: -2%;
+}
+.maintext {
+    width: 35%;
+    font-size: 2.2em;
+    line-height: 1.4em;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    text-align: left;
+    position: absolute;
+    margin-top: -25%;
+    margin-left: 10%;
+}
+#compare {
+    text-align: center;
+    margin-top: -30%;
+    margin-left: 15%;
+    width: 170%;
+    padding: 5%;
+    font-size: 0.6em;
+    letter-spacing: 0.02em;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    background-color: #72C9F1;
+}
+#compare:hover {
+    color: black;
+}
+.section {
+    background-color: #F8F8F8;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: -2%;
+    font-size: 1.3em;
+    color: #707070;
+}
+.fa {
+    font-size: 20px;
+}
+.curr {
+    font-weight: 600;
+}
+
+/*science page*/
+.science {
+    background-color: #FDFDFD;
+}
+.sciencepic {
+    width: 105%;
+    margin-left: -2.8%;
+}
+
+/*claims page*/
+.claims {
+    background-color: #FDFDFD;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+.claim {
+    cursor: pointer;
+    font-size: 1.3em;
+}
+.claimTitle {
+    font-style: italic;
+}
+.leftPar {
+    text-align: left;
+}
+#physiology {
+    display: none;
+}
+#wellbeing {
+    display: none;
+}
+#activeE {
+    font-weight: 600;
+}
+
+/*devices page*/
+.sort {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+.first {
+    margin-left: 7rem !important;
+}
+.device {
+    border: 0.2rem solid lightgray;
+    border-radius: 3rem;
+    padding: 2rem;
+    margin-left: 5rem;
+    width: 20%;
+}
+.device h2 {
+    font-size: 1.5em;
+    margin-bottom: 8%;
+}
+.device table {
+    border-collapse: collapse;
+    border-style: hidden;
+    width: 100%;
+}
+.device th, td {
+    border: 0.1rem solid dimgrey;
+    padding: 0.8rem;
+    font-size: 1.1em;
+    color: dimgrey;
+}
+
+/*footer*/
+.footer {
+    background-color: #FDFDFD;
+    margin: auto;
+    width: 99%;
+    font-weight: 500;
+    line-height: 1.5em;
+    padding-top: 0.5%;
+}
+.footersect {
+    background-color: #FDFDFD;
+}
